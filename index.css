@@ -1,5 +1,20 @@
+*{
+  margin: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
 .main{
-    margin: 20px;
+    background-image: radial-gradient(circle at 0% 0%, #a8cc9b 0, #a0cda0 4.55%, #98cea6 9.09%, #91cfad 13.64%, #89d0b3 18.18%, #82d0bb 22.73%, #7cd1c2 27.27%, #77d1c9 31.82%, #73d1d0 36.36%, #71d0d7 40.91%, #70d0dd 45.45%, #71cfe3 50%, #74cee8 54.55%, #79cded 59.09%, #80cbf1 63.64%, #87c9f4 68.18%, #90c8f6 72.73%, #9ac5f7 77.27%, #a3c3f7 81.82%, #adc1f7 86.36%, #b7bef5 90.91%, #c1bcf2 95.45%, #cabaef 100%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal; 
+    color: white;
+    margin: 50% 10% ;
+    display: grid;
+    border-radius: 20px;
+    width: 80%;
 }
 .flex{
     display: flex;
@@ -15,6 +30,7 @@
 }
 .graus{
     font-size: 35px;
+    
 }
 .lugar{
     font-size: 25px;
@@ -25,6 +41,27 @@
 .informacoes{
 display: flex;
 justify-content: space-around;
+align-items: center;
 gap: 5px;
-margin-top: 10px;
+margin: 40px 0 25px 0;
+}
+.buscar{
+    margin-top: 30px;
+}
+.informacoes img{
+    height: 40px;
+    color: white;
+}
+input{
+border-radius: 20px;
+border: none;
+height: 30px;
+padding-left: 15px;
+}
+button{
+border-radius: 30px;
+border: none;
+margin-left: 10px;
+color: white;
+
 }
